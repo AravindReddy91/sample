@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+ 
+    </head>
+    <body>
+ 
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+         <title>Stephen's Website</title>
+    </head>
+    <body>
+ 
+    </body>
+</html>
+
+
+
+p {
+    color: red;
+}
+
+
+
+<link rel="stylesheet" href="style.css">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+@media only screen and (max-width: 400px) {
+    #smiley {
+        width: 300px;
+    }
+}
+
+
+
+// Identifying our image
+const smiley = document.querySelector("#smiley");
+// Adding reaction when image is clicked
+smiley.addEventListener("click", () => {
+    alert(`Smiley says "Welcome!"`);
+});
